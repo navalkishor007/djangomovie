@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+{%extends 'testapp/base.html'%}
+{%load static%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>home</title>
+    <link rel="stylesheet" href="{%static 'cssfile/second.css'%}">
+</head>
+<body>
+{%block child_block%}
+    <div class="jcon">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Movies Collection</h1>
+                <p class="lead">This website provides the information related to the movies</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="buttons" align="center">
+        <a class="btn btn-primary" href="register" role="button" type="button">register</a>
+        <a class="btn btn-primary" href="movies" role="button" type="button">Movies</a>
+    </div>
+{%endblock%}
+</body>
+</html>

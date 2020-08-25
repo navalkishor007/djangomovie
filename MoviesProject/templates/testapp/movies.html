@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{%extends 'testapp/base.html'%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>movies</title>
+</head>
+<body>
+    {%block child_block%}
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4" align="center">Movies Collection</h1>
+                <div class="buttons" align="center">
+
+                <a class="btn btn-primary" href="inputmovie/" role="button" type="button">Enter movie</a>
+                <a class="btn btn-primary" href="listmovie/" role="button" type="button">movies list</a>
+            </div>
+            </div>
+        </div>
+    {%endblock%}
+</body>
+</html>

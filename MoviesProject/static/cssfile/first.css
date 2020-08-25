@@ -1,0 +1,12 @@
+body{
+background-color: #C3A7CD;
+}
+
+div.jcon{
+padding : 20px;
+text-align:center;
+}
+
+div.jumbotron jumbotron-fluid{
+background-color : #C3A7CD;
+}
